@@ -1,7 +1,7 @@
 from osgeo import ogr
 
-import ospybook as pb
-from ospybook.simplevectorplotter import SimpleVectorPlotter
+import plotter as pb
+from plotter.simplevectorplotter import SimpleVectorPlotter
 
 point_types = [ogr.wkbPoint, ogr.wkbPoint25D,
                ogr.wkbMultiPoint, ogr.wkbMultiPoint25D]
